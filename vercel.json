@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "ws-rocha-equipamentos.vercel.app"
+        }
+      ],
+      "destination": "https://ws-rocha-manutencao.vercel.app/:path*",
+      "permanent": true
+    }
+  ]
+}

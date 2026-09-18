@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ws-rocha-equipamentos.vercel.app/sitemap.xml
+Sitemap: https://ws-rocha-manutencao.vercel.app/sitemap.xml
